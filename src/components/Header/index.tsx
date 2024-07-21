@@ -19,7 +19,7 @@ const Header = () => (
             <a href="#">Novidades</a>
           </LinkItem>
           <LinkItem>
-            <a href="#">Prmoções</a>
+            <a href="#">Promoções</a>
           </LinkItem>
         </Links>
       </nav>
