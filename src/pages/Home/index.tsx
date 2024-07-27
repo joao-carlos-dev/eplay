@@ -1,10 +1,5 @@
 import Banner from '../../components/Banner'
 import ProductList from '../../components/ProductsList'
-
-import resident from '../../assets/images/resident.png'
-import fifa from '../../assets/images/fifa.png'
-import diablo from '../../assets/images/diablo.png'
-import star from '../../assets/images/star_wars.png'
 import { useEffect, useState } from 'react'
 
 export interface GalleryItem {
@@ -27,7 +22,7 @@ export type Game = {
     system: string
     developer: string
     publisher: string
-    languages: string
+    languages: string[]
   }
   media: {
     thumbnail: string
