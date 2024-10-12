@@ -1,12 +1,7 @@
 import Banner from '../../components/Banner'
 import ProductList from '../../components/ProductsList'
-import { useEffect, useState } from 'react'
 
-import {
-  useGetFeaturedGameQuery,
-  useGetOnSaleQuery,
-  useGetSoonQuery
-} from '../../services/api'
+import { useGetOnSaleQuery, useGetSoonQuery } from '../../services/api'
 
 export interface GalleryItem {
   type: 'image' | 'video'
